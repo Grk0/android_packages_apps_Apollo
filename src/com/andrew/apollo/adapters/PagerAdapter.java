@@ -22,6 +22,7 @@ import android.view.ViewGroup;
 import com.andrew.apollo.R;
 import com.andrew.apollo.ui.fragments.AlbumFragment;
 import com.andrew.apollo.ui.fragments.ArtistFragment;
+import com.andrew.apollo.ui.fragments.FolderFragment;
 import com.andrew.apollo.ui.fragments.GenreFragment;
 import com.andrew.apollo.ui.fragments.PlaylistFragment;
 import com.andrew.apollo.ui.fragments.RecentFragment;
@@ -189,7 +190,11 @@ public class PagerAdapter extends FragmentPagerAdapter {
         /**
          * The genre fragment
          */
-        GENRE(GenreFragment.class);
+        GENRE(GenreFragment.class),
+        /**
+         * The file fragment
+         */
+        FILE(FolderFragment.class);
 
         private Class<? extends Fragment> mFragmentClass;
 

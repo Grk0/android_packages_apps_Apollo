@@ -60,6 +60,11 @@ public final class Config {
     public static final String MIME_TYPE = "mime_type";
 
     /**
+     * The music folder passed to the profile activity
+     */
+    public static final String FOLDER_PATH = "folder_path";
+
+    /**
      * Play from search intent
      */
     public static final String PLAY_FROM_SEARCH = "android.media.action.MEDIA_PLAY_FROM_SEARCH";
